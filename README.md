@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# `GitCollection - Aplicação para Busca e Visualização de Repositórios Git`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O GitCollection é uma aplicação educativa desenvolvida com o propósito de proporcionar uma experiência prática na criação e implementação de uma aplicação web que interage com a API do Git para buscar e exibir repositórios de maneira organizada e acessível.
 
-## Available Scripts
+## `Funcionalidades Principais`
 
-In the project directory, you can run:
+    Busca de Repositórios: A aplicação permite aos usuários buscar repositórios específicos na API do Git, facilitando a descoberta de projetos interessantes.
 
-### `npm start`
+    Lista Organizada: Os resultados da busca são apresentados em formato de lista, tornando fácil a visualização e seleção dos repositórios de interesse. A aplicação utiliza de persistencia de dados para armazenar localmente a lista atual. Desta forma, o próximo acesso ao site irá recarregar a lista da última seção.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    Detalhes do Repositório: Ao clicar em um repositório da lista, os detalhes desse repositório são exibidos, oferecendo informações como descrição, linguagem predominante, proprietário e muito mais.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `Como Usar`
 
-### `npm test`
+    Clone ou faça o download deste repositório para sua máquina local.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Abra o arquivo index.html no seu navegador web preferido.
 
-### `npm run build`
+    Utilize a barra de busca para inserir termos relacionados aos repositórios que deseja encontrar.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Os resultados da busca serão exibidos em uma lista. Clique em um repositório para ver mais detalhes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `Tecnologias Utilizadas`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    HTML5
+    CSS3
+    TypeScrypt
+    API do Git (https://api.github.com)
 
-### `npm run eject`
+### `Contribuição`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Este projeto foi desenvolvido com fins educativos, mas também estamos abertos a contribuições da comunidade. Sinta-se à vontade para:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Relatar problemas ou bugs
+    Propor melhorias
+    Enviar solicitações de pull
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `Aviso Legal`
+O GitCollection é uma aplicação de aprendizado e não está associado de forma oficial com a plataforma Git ou suas afiliadas.
